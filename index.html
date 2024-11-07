@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" type="css">
+    <script defer src="scripts/main.js"></script>
+</head>
+<body>
+    <h1>Library Managemnent System</h1>
+
+    <br>
+
+    <div class="input-fields">
+        <input type="text" name="Title" id="title" placeholder="Book title" autofocus required>
+        <input type="text" name="Auther" id="author" placeholder="Auther name" required>
+        <input type="text" name="Year" id="year" placeholder="Release year" required>
+    </div>
+        <input type="number" name="ids" id="bookId" placeholder="Enter id">
+    <div class="buttons">
+        <button class="jsAdd">Add</button>
+        <button class="jsUpdate">Update</button>
+        <button class="jsDelete">Delete</button>
+
+    </div>
+
+    <section class="display-books jsViewBooks"></section>
+    <section class="display-msg jsMsg"></section>
+</body>
+</html>
